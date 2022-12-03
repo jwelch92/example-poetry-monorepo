@@ -1,0 +1,34 @@
+[[package]]
+name = "lib2"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.8"
+develop = true
+
+[package.source]
+type = "directory"
+url = "../lib/lib2"
+
+[[package]]
+name = "lib3"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.8"
+develop = true
+
+[package.source]
+type = "directory"
+url = "../lib/lib3"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "828fa14c8fd9037181f51e36549bc7c5dd90de5e6797620e6dac20f24c75aedb"
+
+[metadata.files]
+lib2 = []
+lib3 = []
